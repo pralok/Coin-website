@@ -1,0 +1,123 @@
+@media screen and (max-width : 660px){
+    header{
+            float: none;
+            text-align: center;
+    }
+    
+    #navigation ul{
+        display: none;
+    }
+    
+    #navigation select{
+        display : block;
+        width : 100%;
+        font-size: 1em;
+        font-family: 'Rajdhani', sans-serif;
+        color : white;
+        background-color: #3A3A3A;
+        height : 30px;
+    }    
+    
+    #slab{
+        margin-top : -32px;
+        background-color: white;
+        height : 30px;
+    }
+    
+    #coin_logo{
+        display : none;
+    }
+
+    .banner {
+        margin-top : -34px;
+    }
+    
+    #home {
+        margin-top: 30px;
+    }
+    
+    #play_store_logo a img{
+    display: inline;    
+    float: none;
+    margin : 0 40%;
+    width : 20%;
+    margin-top: 0px;
+    border-top-left-radius: 5% 10%;
+    border-top-right-radius: 5% 10%;
+    border-bottom-left-radius: 5% 10%;
+    border-bottom-right-radius: 5% 10%;
+    }
+    
+    #mobile_screenshot img{
+        display: none;
+    }
+    
+    #steps ul li,#features ul li{  
+        clear : both;
+        float: none;        
+    }
+     
+    #steps ul li img, #features ul li img{
+        padding-top : 30px;
+
+    }
+    
+    #faq ul li,#features ul li{  
+        clear : both;
+        float: none;        
+    }
+    
+    
+    #faq ul li p{
+        padding-left: 0px;
+    }
+    
+    #faq ul li img{
+        margin-left : -10px;
+    }
+    #faq ul li h3{
+        margin-left: 10px;
+    }
+    
+}
+
+
+@media screen and (min-width : 660px) and (max-width : 800px) {
+
+    #navigation ul li.show_hide{
+        display : inline;
+    }
+    
+    #coin_logo{
+        display : none;
+    }
+}
+
+@media screen and (min-width : 660px) and (max-width : 1200px) {
+    #navigation ul{
+        margin-left : 0%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width : 660px) and (max-width : 1000px) {
+    #mobile_screenshot img{
+        display: none;
+    }
+    
+  #play_store_logo a img{
+    display: inline;    
+    float: none;
+    margin : 0 40%;
+    width : 20%;
+    margin-top: 50px;
+    border-top-left-radius: 5% 10%;
+    border-top-right-radius: 5% 10%;
+    border-bottom-left-radius: 5% 10%;
+    border-bottom-right-radius: 5% 10%;
+}
+
+}
+
+
+
